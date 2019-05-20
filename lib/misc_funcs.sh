@@ -25,7 +25,7 @@ function load_config() {
   output_section "Checking Erlang and Elixir versions"
 
   local custom_config_file="${build_path}/elixir_buildpack.config"
-
+  output_line "custom config file=${custom_config_file}"
   # Source for default versions file from buildpack first
   source "${build_pack_path}/elixir_buildpack.config"
 
